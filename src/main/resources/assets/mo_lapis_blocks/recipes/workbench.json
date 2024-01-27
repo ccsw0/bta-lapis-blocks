@@ -1,0 +1,201 @@
+[
+  {
+    "name": "minecraft:workbench/gilded_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "GL",
+      "LG"
+    ],
+    "symbols": [
+      {
+        "symbol": "G",
+        "stack": {
+          "key": "item.ingot.gold",
+          "amount": 1,
+          "meta": 0
+        }
+      },
+      {
+        "symbol": "L",
+        "stack": {
+          "key": "item.dye",
+          "amount": 1,
+          "meta": 4
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.gilded.lapis",
+      "amount": 1,
+      "meta": 0
+    },
+    "consumeContainers": true
+  },
+  {
+    "name": "minecraft:workbench/slab_gilded_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "GGG"
+    ],
+    "symbols": [
+      {
+        "symbol": "G",
+        "stack": {
+          "key": "tile.mo_lapis_blocks.gilded.lapis",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.slab.gilded.lapis",
+      "amount": 6,
+      "meta": 0
+    },
+    "consumeContainers": true
+  },
+  {
+    "name": "minecraft:workbench/stair_gilded_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "G  ",
+      "GG ",
+      "GGG"
+    ],
+    "symbols": [
+      {
+        "symbol": "G",
+        "stack": {
+          "key": "tile.mo_lapis_blocks.gilded.lapis",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.stairs.gilded.lapis",
+      "amount": 6,
+      "meta": 0
+    },
+    "consumeContainers": true
+  },
+  {
+    "name": "minecraft:workbench/trimmed_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "G",
+      "G"
+    ],
+    "symbols": [
+      {
+        "symbol": "G",
+        "stack": {
+          "key": "tile.mo_lapis_blocks.gilded.lapis",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.trimmed.lapis",
+      "amount": 1,
+      "meta": 0
+    },
+    "consumeContainers": true
+  },
+  {
+    "name": "minecraft:workbench/slab_trimmed_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "TTT"
+    ],
+    "symbols": [
+      {
+        "symbol": "T",
+        "stack": {
+          "key": "tile.mo_lapis_blocks.trimmed.lapis",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.slab.trimmed.lapis",
+      "amount": 6,
+      "meta": 0
+    },
+    "consumeContainers": true
+  },
+  {
+    "name": "minecraft:workbench/pillar_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "L",
+      "L"
+    ],
+    "symbols": [
+      {
+        "symbol": "L",
+        "stack": {
+          "key": "tile.block.lapis",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.pillar.lapis",
+      "amount": 2,
+      "meta": 0
+    },
+    "consumeContainers": true
+  },
+  {
+    "name": "minecraft:workbench/slab_brick_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "GGG"
+    ],
+    "symbols": [
+      {
+        "symbol": "G",
+        "stack": {
+          "key": "tile.brick.lapis",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.slab.brick.lapis",
+      "amount": 6,
+      "meta": 0
+    },
+    "consumeContainers": true
+  },
+  {
+    "name": "minecraft:workbench/stair_brick_lapis",
+    "type": "minecraft:crafting/shaped",
+    "pattern": [
+      "G  ",
+      "GG ",
+      "GGG"
+    ],
+    "symbols": [
+      {
+        "symbol": "G",
+        "stack": {
+          "key": "tile.brick.lapis",
+          "amount": 1,
+          "meta": 0
+        }
+      }
+    ],
+    "result": {
+      "key": "tile.mo_lapis_blocks.stairs.brick.lapis",
+      "amount": 6,
+      "meta": 0
+    },
+    "consumeContainers": true
+  }
+]

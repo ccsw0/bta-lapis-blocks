@@ -1,0 +1,23 @@
+tile.mo_lapis_blocks.gilded.lapis.name=Gilded Lapis Lazuli
+tile.mo_lapis_blocks.gilded.lapis.desc=A block of lapis lazuli decorated with golden highlights.
+
+tile.mo_lapis_blocks.stairs.gilded.lapis.name=Gilded Lapis Lazuli Stairs
+tile.mo_lapis_blocks.stairs.gilded.lapis.desc=Gilded lapis lazuli block used for rapid vertical movement.
+
+tile.mo_lapis_blocks.slab.gilded.lapis.name=Gilded Lapis Lazuli Slab
+tile.mo_lapis_blocks.slab.gilded.lapis.desc=A slab of gilded lapis lazuli.
+
+tile.mo_lapis_blocks.trimmed.lapis.name=Trimmed Lapis Lazuli
+tile.mo_lapis_blocks.trimmed.lapis.desc=A block of lapis lazuli masterfully trimmed with gold.
+
+tile.mo_lapis_blocks.slab.trimmed.lapis.name=Trimmed Lapis Lazuli Slab
+tile.mo_lapis_blocks.slab.trimmed.lapis.desc=A Slab of Trimmed Lapis.
+
+tile.mo_lapis_blocks.pillar.lapis.name=Lapis Lazuli Pillar
+tile.mo_lapis_blocks.pillar.lapis.desc=A block of lapis lazuli engraved into a pillar.
+
+tile.mo_lapis_blocks.stairs.brick.lapis.name=Lapis Lazuli Brick Stairs
+tile.mo_lapis_blocks.stairs.brick.lapis.desc=Lapis lazuli brick block used for rapid vertical movement.
+
+tile.mo_lapis_blocks.slab.brick.lapis.name=Lapis Lazuli Brick Slab
+tile.mo_lapis_blocks.slab.brick.lapis.desc=A slab of lapis lazuli brick.
