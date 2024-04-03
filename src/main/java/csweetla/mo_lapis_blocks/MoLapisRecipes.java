@@ -7,6 +7,11 @@ public class MoLapisRecipes implements RecipeEntrypoint {
 
 	@Override
 	public void onRecipesReady() {
-		DataLoader.loadRecipes("/assets/mo_lapis_blocks/recipes/workbench.json");
+		DataLoader.loadRecipesFromFile("/assets/mo_lapis_blocks/recipes/workbench.json");
+	}
+
+	@Override
+	public void initNamespaces() {
+
 	}
 }
