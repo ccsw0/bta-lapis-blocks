@@ -1,24 +1,21 @@
 package csweetla.mo_lapis_blocks;
 
 import net.minecraft.core.block.Block;
-import net.minecraft.core.block.material.Material;
 import net.minecraft.client.render.block.model.BlockModelStandard;
-import net.minecraft.client.render.stitcher.IconCoordinate;
-import net.minecraft.core.entity.EntityLiving;
-import net.minecraft.core.enums.PlacementMode;
-import net.minecraft.core.util.helper.Axis;
-import net.minecraft.core.util.helper.Direction;
+import net.minecraft.client.render.texture.stitcher.IconCoordinate;
+
+import net.minecraft.core.block.BlockLogic;
 import net.minecraft.core.util.helper.Side;
-import net.minecraft.core.world.World;
 
-import net.minecraft.client.render.stitcher.TextureRegistry;
 
-public class BlockModelLapisPillarHardcoded<T extends Block> extends BlockModelStandard<T> {
-	public BlockModelLapisPillarHardcoded(Block b) {
+import net.minecraft.client.render.texture.stitcher.TextureRegistry;
+
+public class BlockModelLapisPillarHardcoded<T extends BlockLogic> extends BlockModelStandard<T> {
+	public BlockModelLapisPillarHardcoded(Block<T> b) {
 		super(b);
 	}
 
-	public static IconCoordinate textures[] = new IconCoordinate[] {
+	public static IconCoordinate[] textures = new IconCoordinate[] {
         TextureRegistry.getTexture("mo_lapis_blocks:block/lapis_pillar_cap"),
 		TextureRegistry.getTexture("mo_lapis_blocks:block/lapis_pillar_cap_r90"),
 		TextureRegistry.getTexture("mo_lapis_blocks:block/lapis_pillar_cap_r180"),

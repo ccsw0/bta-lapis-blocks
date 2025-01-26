@@ -1,25 +1,27 @@
 package csweetla.mo_lapis_blocks;
 
 import net.minecraft.core.block.Block;
+import net.minecraft.core.block.BlockLogic;
 import net.minecraft.core.block.material.Material;
-import net.minecraft.core.entity.EntityLiving;
+import net.minecraft.core.entity.Mob;
 import net.minecraft.core.enums.PlacementMode;
 import net.minecraft.core.util.helper.Axis;
 import net.minecraft.core.util.helper.Side;
 import net.minecraft.core.world.World;
-import net.minecraft.client.render.stitcher.TextureRegistry;
+import org.jetbrains.annotations.NotNull;
 
 import static csweetla.mo_lapis_blocks.MoLapisBlocks.LOGGER;
-import static csweetla.mo_lapis_blocks.MoLapisBlocks.MOD_ID;
 
-public class BlockLapisTrimmedHardcoded extends Block {
-	public BlockLapisTrimmedHardcoded(String key, int id, Material material) {
-		super(key, id, material);
+public class BlockLogicLapisTrimmedHardcoded extends BlockLogic {
+
+
+	public BlockLogicLapisTrimmedHardcoded(Block<?> block, Material material) {
+		super(block, material);
 	}
 
 	@Override
-	public void onBlockPlaced(World world, int x, int y, int z, Side side, EntityLiving entity, double sideHeight) {
-		Axis axis = entity.getPlacementDirection(side, PlacementMode.SIDE).getAxis();
+	public void onBlockPlacedByMob(World world, int x, int y, int z, @NotNull Side side, Mob mob, double xPlaced, double yPlaced) {
+		Axis axis = mob.getPlacementDirection(side, PlacementMode.SIDE).getAxis();
 		if (axis == Axis.Y) {
 			if (side == Side.BOTTOM) {
 				world.setBlockMetadataWithNotify(x, y, z, 1);
