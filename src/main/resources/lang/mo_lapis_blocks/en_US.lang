@@ -16,8 +16,8 @@ tile.mo_lapis_blocks.slab.trimmed.lapis.desc=A Slab of Trimmed Lapis.
 tile.mo_lapis_blocks.pillar.lapis.name=Lapis Lazuli Pillar
 tile.mo_lapis_blocks.pillar.lapis.desc=A block of lapis lazuli engraved into a pillar.
 
-tile.mo_lapis_blocks.stairs.brick.lapis.name=Lapis Lazuli Brick Stairs
-tile.mo_lapis_blocks.stairs.brick.lapis.desc=Lapis lazuli brick block used for rapid vertical movement.
+tile.mo_lapis_blocks.stairs.brick.lapis.name=LEGACY MODDED Lapis Brick Stairs
+tile.mo_lapis_blocks.stairs.brick.lapis.desc=Lapis Brick Stairs from before they were in BTA. Craft to normal ones.
 
-tile.mo_lapis_blocks.slab.brick.lapis.name=Lapis Lazuli Brick Slab
-tile.mo_lapis_blocks.slab.brick.lapis.desc=A slab of lapis lazuli brick.
+tile.mo_lapis_blocks.slab.brick.lapis.name=LEGACY MODDED Lapis Brick Slab
+tile.mo_lapis_blocks.slab.brick.lapis.desc=Lapis Brick Slab from before they were in BTA. Craft to normal ones.

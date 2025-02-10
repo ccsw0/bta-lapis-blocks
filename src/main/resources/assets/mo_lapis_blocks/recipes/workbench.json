@@ -151,49 +151,47 @@
     "consumeContainers": true
   },
   {
-    "name": "minecraft:workbench/slab_brick_lapis",
+    "name": "minecraft:workbench/legacy_lapis_stair_conversion",
     "type": "minecraft:crafting/shaped",
     "pattern": [
-      "GGG"
+      "L"
     ],
     "symbols": [
       {
-        "symbol": "G",
+        "symbol": "L",
         "stack": {
-          "key": "tile.brick.lapis",
+          "key": "tile.mo_lapis_blocks.stairs.brick.lapis",
           "amount": 1,
           "meta": 0
         }
       }
     ],
     "result": {
-      "key": "tile.mo_lapis_blocks.slab.brick.lapis",
-      "amount": 6,
+      "key": "tile.stairs.brick.lapis",
+      "amount": 1,
       "meta": 0
     },
     "consumeContainers": true
   },
   {
-    "name": "minecraft:workbench/stair_brick_lapis",
+    "name": "minecraft:workbench/legacy_lapis_slab_conversion",
     "type": "minecraft:crafting/shaped",
     "pattern": [
-      "G  ",
-      "GG ",
-      "GGG"
+      "L"
     ],
     "symbols": [
       {
-        "symbol": "G",
+        "symbol": "L",
         "stack": {
-          "key": "tile.brick.lapis",
+          "key": "tile.mo_lapis_blocks.slab.brick.lapis",
           "amount": 1,
           "meta": 0
         }
       }
     ],
     "result": {
-      "key": "tile.mo_lapis_blocks.stairs.brick.lapis",
-      "amount": 6,
+      "key": "tile.slab.brick.lapis",
+      "amount": 1,
       "meta": 0
     },
     "consumeContainers": true

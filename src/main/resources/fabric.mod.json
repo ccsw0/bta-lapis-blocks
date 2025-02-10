@@ -21,6 +21,9 @@
     "main": [
 			"csweetla.mo_lapis_blocks.MoLapisBlocks"
     ],
+		"initModels": [
+			"csweetla.mo_lapis_blocks.MoLapisModelEntrypoint"
+		],
 		"recipesReady": [
 			"csweetla.mo_lapis_blocks.MoLapisRecipes"
 		]
@@ -28,7 +31,7 @@
 
   "depends": {
     "fabricloader": ">=0.13.3",
-		"halplibe": ">=5.0.0"
+		"halplibe": ">=5.1.2"
   },
   "suggests": {
   }
